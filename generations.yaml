@@ -1,0 +1,10 @@
+generations:
+  - name: "First Generation (4G)"
+    start_year: 2010
+    end_year: 2018
+    description: "The original Audi A7 pioneered the 'four-door coupe' concept in Audi's lineup, featuring a distinctive fastback design with a practical liftback tailgate. Based on the MLB platform shared with the A6, it combined elegant, flowing lines with a sporty, low-slung profile. The interior featured premium materials and advanced technology including Audi's MMI system. Engine options mirrored the A6 lineup with V6 and V8 petrol and diesel options, while the S7 featured a twin-turbo V8 and the RS7 offered up to 605 HP in Performance trim. A facelift in 2014 updated the styling and technology features."
+
+  - name: "Second Generation (4K)"
+    start_year: 2018
+    end_year: null
+    description: "Built on the MLB Evo platform, the second-generation A7 features more angular styling while maintaining the distinctive fastback silhouette. The interior represents a technological leap with a dual-touchscreen MMI system and Audi's Virtual Cockpit digital instrument cluster. Engine options include mild-hybrid technology for improved efficiency, and the range includes the performance-oriented S7 and RS7 variants, with the latter producing up to 630 HP. Advanced technology includes sophisticated driver assistance systems approaching Level 3 autonomous capability. Throughout its evolution, the A7 has maintained its position as a style leader in Audi's lineup, blending the practicality of the A6 with more distinctive, coupe-like design."
