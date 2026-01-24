@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Audi_A7"
+
 generations:
   - name: "First Generation (4G)"
     start_year: 2010
