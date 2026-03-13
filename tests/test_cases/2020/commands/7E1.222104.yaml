@@ -1,0 +1,8 @@
+command_id: 7E1.222104
+test_cases:
+- expected_values:
+    AUDI_ATF_T: 37
+  response: 7E9046221044D
+- expected_values:
+    AUDI_ATF_T: 84
+  response: 7E9046221047C
