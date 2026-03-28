@@ -4,8 +4,14 @@ test_cases:
     AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 1.1
   response: 7E9046210F915
 - expected_values:
+    AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 2.3
+  response: 7E9046210F921
+- expected_values:
     AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 2.5
   response: 7E9046210F923
+- expected_values:
+    AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 2.8
+  response: 7E9046210F926
 - expected_values:
     AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 2.9
   response: 7E9046210F927
@@ -13,5 +19,14 @@ test_cases:
     AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 3.4
   response: 7E9046210F92C
 - expected_values:
+    AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.1
+  response: 7E9046210F933
+- expected_values:
+    AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 4.9
+  response: 7E9046210F93B
+- expected_values:
     AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 9
   response: 7E9046210F964
+- expected_values:
+    AUDI_PQ35_DL382_CLUTCH_1_ACTUAL_P_RAW_VALUE: 10.8
+  response: 7E9046210F976
