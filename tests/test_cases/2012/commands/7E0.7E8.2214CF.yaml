@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214CF
+test_cases:
+- expected_values:
+    AUDI_PQ35_MAIN_INJ_DURATION: 0.4176
+  response: 7E8056214CF0414
+- expected_values:
+    AUDI_PQ35_MAIN_INJ_DURATION: 0.43
+  response: 7E8056214CF0433
