@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211BF
+test_cases:
+- expected_values:
+    AUDI_PQ35_FUEL_P_REG: 23.89
+  response: 7E8056211BF0955
+- expected_values:
+    AUDI_PQ35_FUEL_P_REG: 24.79
+  response: 7E8056211BF09AF

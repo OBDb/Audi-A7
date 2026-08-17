@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22111A
+test_cases:
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.81
+  response: 7E80562111A0051
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.82
+  response: 7E80562111A0052
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.83
+  response: 7E80562111A0053
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.84
+  response: 7E80562111A0054
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.85
+  response: 7E80562111A0055
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.86
+  response: 7E80562111A0056
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.87
+  response: 7E80562111A0057
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.9
+  response: 7E80562111A005A
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.93
+  response: 7E80562111A005D
+- expected_values:
+    AUDI_PQ35_FUEL_FLOW: 0.97
+  response: 7E80562111A0061
