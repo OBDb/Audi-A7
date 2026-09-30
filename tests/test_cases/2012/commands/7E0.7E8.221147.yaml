@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221147
 test_cases:
 - expected_values:
-    AUDI_MISFIRES_1000REV_C1: 4972
+    A7_MISFIRES_1000REV_C1: 4972
   response: 7E805621147136C
 - expected_values:
-    AUDI_MISFIRES_1000REV_C1: 4981
+    A7_MISFIRES_1000REV_C1: 4981
   response: '7E8056211471375'
 - expected_values:
-    AUDI_MISFIRES_1000REV_C1: 4982
+    A7_MISFIRES_1000REV_C1: 4982
   response: '7E8056211471376'

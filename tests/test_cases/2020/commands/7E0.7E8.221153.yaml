@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221153
+test_cases:
+- expected_values:
+    A7_EM_TORQ_1: 700.03125
+  response: '7E8056211535781'
+- expected_values:
+    A7_EM_TORQ_1: 700.21875
+  response: '7E8056211535787'
+- expected_values:
+    A7_EM_TORQ_1: 704.875
+  response: 7E805621153581C
+- expected_values:
+    A7_EM_TORQ_1: 704.90625
+  response: 7E805621153581D
+- expected_values:
+    A7_EM_TORQ_1: 704.9375
+  response: 7E805621153581E
+- expected_values:
+    A7_EM_TORQ_1: 704.96875
+  response: 7E805621153581F
+- expected_values:
+    A7_EM_TORQ_1: 705
+  response: '7E8056211535820'
+- expected_values:
+    A7_EM_TORQ_1: 705.03125
+  response: '7E8056211535821'
+- expected_values:
+    A7_EM_TORQ_1: 705.0625
+  response: '7E8056211535822'
+- expected_values:
+    A7_EM_TORQ_1: 705.09375
+  response: '7E8056211535823'

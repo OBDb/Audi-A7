@@ -1,0 +1,32 @@
+command_id: 710.77A.222A09|f=-2018
+test_cases:
+- expected_values:
+    A7_SSB_C: 1.598
+  response: 77A06622A092DCCFE
+- expected_values:
+    A7_SSB_C: 1.639
+  response: 77A06622A092DCD27
+- expected_values:
+    A7_SSB_C: 1.695
+  response: 77A06622A092DCD5F
+- expected_values:
+    A7_SSB_C: 1.714
+  response: 77A06622A092DCD72
+- expected_values:
+    A7_SSB_C: 1.727
+  response: 77A06622A092DCD7F
+- expected_values:
+    A7_SSB_C: 1.745
+  response: 77A06622A092DCD91
+- expected_values:
+    A7_SSB_C: 1.747
+  response: 77A06622A092DCD93
+- expected_values:
+    A7_SSB_C: 3.2
+  response: 77A06622A092DD340
+- expected_values:
+    A7_SSB_C: 3.253
+  response: 77A06622A092DD375
+- expected_values:
+    A7_SSB_C: 3.446
+  response: 77A06622A092DD436

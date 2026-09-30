@@ -1,0 +1,5 @@
+command_id: 710.77A.222A09|f=2019-
+test_cases:
+- expected_values:
+    A7_SSB_C_32: 2.156
+  response: 77A07622A090000086C

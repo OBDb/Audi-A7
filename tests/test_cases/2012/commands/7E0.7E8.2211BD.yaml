@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    A7_OIL_LEVEL_WARN: 4.208
+  response: 7E8056211BD2918
+- expected_values:
+    A7_OIL_LEVEL_WARN: 4.2084
+  response: 7E8056211BD2919
+- expected_values:
+    A7_OIL_LEVEL_WARN: 4.2236
+  response: 7E8056211BD293F
+- expected_values:
+    A7_OIL_LEVEL_WARN: 4.2552
+  response: 7E8056211BD298E
+- expected_values:
+    A7_OIL_LEVEL_WARN: 4.3756
+  response: 7E8056211BD2ABB

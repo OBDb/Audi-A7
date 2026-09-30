@@ -1,0 +1,14 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    A7_CLIMATE_FR_R_DEFL_T: 22
+  response: 7B00562260D42B8
+- expected_values:
+    A7_CLIMATE_FR_R_DEFL_T: 22.33333
+  response: 7B00562260D4306
+- expected_values:
+    A7_CLIMATE_FR_R_DEFL_T: 24.33333
+  response: 7B00562260D49FF
+- expected_values:
+    A7_CLIMATE_FR_R_DEFL_T: 25.33333
+  response: 7B00562260D4CE7
