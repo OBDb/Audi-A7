@@ -1498,7 +1498,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1515"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_CAT_T_CALC", "path": "Engine", "fmt": { "len": 16, "max": 327625, "min": -50, "mul": 5, "add": -50, "unit": "celsius" }, "name": "Catalyst temperature, calculated"}
+    {"id": "A7_CAT_T_CALC", "path": "Engine", "fmt": { "len": 8, "max": 1225, "min": -50, "mul": 5, "add": -50, "unit": "celsius" }, "name": "Catalyst temperature, calculated"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1519"}, "freq": 1, "filter": { "from": 2019 },
   "signals": [
