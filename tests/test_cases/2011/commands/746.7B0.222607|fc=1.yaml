@@ -1,0 +1,8 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    A7_CLIMATE_RAD_FAN_CMD_DUTY: 21.6
+  response: 7B00462260736
+- expected_values:
+    A7_CLIMATE_RAD_FAN_CMD_DUTY: 37.2
+  response: 7B0046226075D

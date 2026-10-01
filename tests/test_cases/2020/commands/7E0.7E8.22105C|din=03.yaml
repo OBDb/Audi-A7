@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22105C|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_GEN_LOAD: 0
+  response: 7E80562105C0000
+- expected_values:
+    A7_PQ35_GEN_LOAD: 0.36
+  response: 7E80562105C0024
+- expected_values:
+    A7_PQ35_GEN_LOAD: 0.51
+  response: 7E80562105C0033
+- expected_values:
+    A7_PQ35_GEN_LOAD: 0.75
+  response: 7E80562105C004B

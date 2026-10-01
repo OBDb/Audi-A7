@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211BE
+test_cases:
+- expected_values:
+    A7_EOT_V2: 3169
+  response: 7E8056211BE0C61
+- expected_values:
+    A7_EOT_V2: 3298
+  response: 7E8056211BE0CE2
+- expected_values:
+    A7_EOT_V2: 3348
+  response: 7E8056211BE0D14

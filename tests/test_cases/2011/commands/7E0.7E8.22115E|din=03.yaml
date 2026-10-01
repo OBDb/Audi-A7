@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22115E|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_TIME_LAST_REGEN: 2.2507947019122255e-06
+  response: 7E80762115E00005882
+- expected_values:
+    A7_PQ35_TIME_LAST_REGEN: 2.3130794701220835e-06
+  response: 7E80762115E00005AF5
+- expected_values:
+    A7_PQ35_TIME_LAST_REGEN: 2.5708609270671901e-06
+  response: 7E80762115E00006518

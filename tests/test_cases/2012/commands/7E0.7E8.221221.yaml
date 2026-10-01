@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: 757.4
+    A7_PQ35_ACCEL_PED_1: 757.4
   response: 7E8056212210ECB
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: 1070.2
+    A7_PQ35_ACCEL_PED_1: 1070.2
   response: 7E80562122114E7
 - expected_values:
-    AUDI_PQ35_ACCEL_PED_1: 1114.2
+    A7_PQ35_ACCEL_PED_1: 1114.2
   response: 7E80562122115C3

@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221146
 test_cases:
 - expected_values:
-    AUDI_MISFIRES_TOTAL: 4623
+    A7_MISFIRES_TOTAL: 4623
   response: 7E805621146120F
 - expected_values:
-    AUDI_MISFIRES_TOTAL: 65502
+    A7_MISFIRES_TOTAL: 65502
   response: 7E805621146FFDE

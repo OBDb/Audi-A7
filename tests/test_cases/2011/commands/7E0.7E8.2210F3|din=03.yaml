@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2210F3|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 7
+  response: 7E8056210F30007
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 8
+  response: 7E8056210F30008
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 12
+  response: 7E8056210F3000C
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 13
+  response: 7E8056210F3000D
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 14
+  response: 7E8056210F3000E

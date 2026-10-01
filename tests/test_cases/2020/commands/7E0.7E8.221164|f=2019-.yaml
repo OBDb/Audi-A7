@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221164|f=2019-
+test_cases:
+- expected_values:
+    A7_HVBAT_SOC_DISP: 48.91
+  response: 7E805621164131B
+- expected_values:
+    A7_HVBAT_SOC_DISP: 51.16
+  response: 7E80562116413FC
+- expected_values:
+    A7_HVBAT_SOC_DISP: 51.25
+  response: '7E8056211641405'
+- expected_values:
+    A7_HVBAT_SOC_DISP: 68.44
+  response: 7E8056211641ABC

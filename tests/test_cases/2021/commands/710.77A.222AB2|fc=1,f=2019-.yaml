@@ -1,0 +1,5 @@
+command_id: 710.77A.222AB2|fc=1,f=2019-
+test_cases:
+- expected_values:
+    A7_HVBAT_E_MAX_RAW: 1305
+  response: 77A07622AB205190100

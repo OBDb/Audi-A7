@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22105E|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_BAT_V_2: 13.72
+  response: 7E80562105E02AE
+- expected_values:
+    A7_PQ35_BAT_V_2: 13.8
+  response: 7E80562105E02B2
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.14
+  response: 7E80562105E02C3
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.16
+  response: 7E80562105E02C4
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.18
+  response: 7E80562105E02C5
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.2
+  response: 7E80562105E02C6
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.22
+  response: 7E80562105E02C7
+- expected_values:
+    A7_PQ35_BAT_V_2: 14.24
+  response: 7E80562105E02C8

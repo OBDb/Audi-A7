@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.221057
 test_cases:
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.953
+    A7_PQ35_CHG_P: 0.953
   response: 7E80562105703B9
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.956
+    A7_PQ35_CHG_P: 0.956
   response: 7E80562105703BC
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.957
+    A7_PQ35_CHG_P: 0.957
   response: 7E80562105703BD
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.968
+    A7_PQ35_CHG_P: 0.968
   response: 7E80562105703C8
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.969
+    A7_PQ35_CHG_P: 0.969
   response: 7E80562105703C9
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.971
+    A7_PQ35_CHG_P: 0.971
   response: 7E80562105703CB
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.972
+    A7_PQ35_CHG_P: 0.972
   response: 7E80562105703CC
 - expected_values:
-    AUDI_PQ35_CHG_P: 0.973
+    A7_PQ35_CHG_P: 0.973
   response: 7E80562105703CD

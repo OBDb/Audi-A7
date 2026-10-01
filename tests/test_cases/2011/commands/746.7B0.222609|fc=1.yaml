@@ -1,0 +1,8 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    A7_AAT_746: -50.5
+  response: 7B0046226099B
+- expected_values:
+    A7_AAT_746: -42.5
+  response: 7B004622609AB
