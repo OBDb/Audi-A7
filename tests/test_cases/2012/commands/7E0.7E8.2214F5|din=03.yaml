@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2214F5|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_DIFF_P: 5
+  response: 7E8056214F50005
+- expected_values:
+    A7_PQ35_DIFF_P: 6
+  response: 7E8056214F50006
+- expected_values:
+    A7_PQ35_DIFF_P: 14
+  response: 7E8056214F5000E
+- expected_values:
+    A7_PQ35_DIFF_P: 15
+  response: 7E8056214F5000F
+- expected_values:
+    A7_PQ35_DIFF_P: 40
+  response: 7E8056214F50028
+- expected_values:
+    A7_PQ35_DIFF_P: 52
+  response: 7E8056214F50034

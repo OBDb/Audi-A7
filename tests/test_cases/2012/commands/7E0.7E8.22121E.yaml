@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22121E
+test_cases:
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 570700
+  response: 7E80562121E164B
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 571000
+  response: 7E80562121E164E
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 747200
+  response: 7E80562121E1D30
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 821100
+  response: 7E80562121E2013
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 871600
+  response: 7E80562121E220C
+- expected_values:
+    A7_SPEC_VALUE_RAIL_P: 896100
+  response: 7E80562121E2301

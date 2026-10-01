@@ -1,0 +1,23 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    A7_CABIN_T: 482.1
+  response: 7B00562261312D5
+- expected_values:
+    A7_CABIN_T: 484.9
+  response: 7B00562261312F1
+- expected_values:
+    A7_CABIN_T: 485.6
+  response: 7B00562261312F8
+- expected_values:
+    A7_CABIN_T: 716.5
+  response: 7B0056226131BFD
+- expected_values:
+    A7_CABIN_T: 721.9
+  response: 7B0056226131C33
+- expected_values:
+    A7_CABIN_T: 728.5
+  response: 7B0056226131C75
+- expected_values:
+    A7_CABIN_T: 730.3
+  response: 7B0056226131C87

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22123F|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_OIL_DYN_AVG: 261.852
+  response: 7E80562123FFFB7
+- expected_values:
+    A7_PQ35_OIL_DYN_AVG: 261.884
+  response: 7E80562123FFFBF
+- expected_values:
+    A7_PQ35_OIL_DYN_AVG: 262.052
+  response: 7E80562123FFFE9
+- expected_values:
+    A7_PQ35_OIL_DYN_AVG: 262.1
+  response: 7E80562123FFFF5

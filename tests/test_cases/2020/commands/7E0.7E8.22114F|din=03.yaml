@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22114F|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 158.8
+  response: 7E80562114F3E08
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 158.89
+  response: 7E80562114F3E11
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.88
+  response: 7E80562114F3E74
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.89
+  response: 7E80562114F3E75
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.9
+  response: 7E80562114F3E76
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.91
+  response: 7E80562114F3E77
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.92
+  response: 7E80562114F3E78
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.93
+  response: 7E80562114F3E79
+- expected_values:
+    A7_PQ35_SOOT_MASS_CALC: 159.94
+  response: 7E80562114F3E7A

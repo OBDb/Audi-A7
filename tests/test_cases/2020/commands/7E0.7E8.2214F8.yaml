@@ -1,29 +1,29 @@
 command_id: 7E0.7E8.2214F8
 test_cases:
 - expected_values:
-    AUDI_AAT_V1: 37.88
+    A7_AAT_V1: 37.88
   response: 7E8056214F80ACE
 - expected_values:
-    AUDI_AAT_V1: 45.08
+    A7_AAT_V1: 45.08
   response: 7E8056214F80AF6
 - expected_values:
-    AUDI_AAT_V1: 52.28
+    A7_AAT_V1: 52.28
   response: 7E8056214F80B1E
 - expected_values:
-    AUDI_AAT_V1: 53.18
+    A7_AAT_V1: 53.18
   response: 7E8056214F80B23
 - expected_values:
-    AUDI_AAT_V1: 54.08
+    A7_AAT_V1: 54.08
   response: 7E8056214F80B28
 - expected_values:
-    AUDI_AAT_V1: 54.98
+    A7_AAT_V1: 54.98
   response: 7E8056214F80B2D
 - expected_values:
-    AUDI_AAT_V1: 55.88
+    A7_AAT_V1: 55.88
   response: 7E8056214F80B32
 - expected_values:
-    AUDI_AAT_V1: 56.78
+    A7_AAT_V1: 56.78
   response: 7E8056214F80B37
 - expected_values:
-    AUDI_AAT_V1: 57.68
+    A7_AAT_V1: 57.68
   response: 7E8056214F80B3C

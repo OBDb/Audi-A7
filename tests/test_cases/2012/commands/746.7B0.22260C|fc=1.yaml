@@ -1,0 +1,20 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 23.33333
+  response: 7B00562260C465B
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 23.33333
+  response: 7B00562260C4675
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 23.33333
+  response: 7B00562260C468F
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 29
+  response: 7B00562260C5729
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 29
+  response: 7B00562260C5763
+- expected_values:
+    A7_CLIMATE_FR_L_DEFL_T: 29
+  response: 7B00562260C5780

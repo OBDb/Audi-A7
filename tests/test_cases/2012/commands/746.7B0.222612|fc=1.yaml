@@ -1,0 +1,17 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    A7_CLIMATE_T_AFTER_EVAP: 1.33333
+  response: 7B00562261204DD
+- expected_values:
+    A7_CLIMATE_T_AFTER_EVAP: 1.66667
+  response: 7B0056226120508
+- expected_values:
+    A7_CLIMATE_T_AFTER_EVAP: 9
+  response: 7B0056226121B32
+- expected_values:
+    A7_CLIMATE_T_AFTER_EVAP: 9
+  response: 7B0056226121B5A
+- expected_values:
+    A7_CLIMATE_T_AFTER_EVAP: 9
+  response: 7B0056226121B82

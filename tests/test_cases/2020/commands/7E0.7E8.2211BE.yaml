@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.2211BE
+test_cases:
+- expected_values:
+    A7_EOT_V2: 0
+  response: 7E8056211BE0000
+- expected_values:
+    A7_EOT_V2: 1
+  response: 7E8056211BE0001
+- expected_values:
+    A7_EOT_V2: 2
+  response: 7E8056211BE0002
+- expected_values:
+    A7_EOT_V2: 3
+  response: 7E8056211BE0003
+- expected_values:
+    A7_EOT_V2: 65523
+  response: 7E8056211BEFFF3
+- expected_values:
+    A7_EOT_V2: 65530
+  response: 7E8056211BEFFFA
+- expected_values:
+    A7_EOT_V2: 65535
+  response: 7E8056211BEFFFF
