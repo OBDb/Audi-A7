@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22120F|f=-2018
+test_cases:
+- expected_values:
+    A7_C7_CLUTCH_0_T_CALCULATED: 70
+  response: 7E90562120F02BC
+- expected_values:
+    A7_C7_CLUTCH_0_T_CALCULATED: 74.9
+  response: 7E90562120F02ED
+- expected_values:
+    A7_C7_CLUTCH_0_T_CALCULATED: 236.1
+  response: 7E90562120F0939
