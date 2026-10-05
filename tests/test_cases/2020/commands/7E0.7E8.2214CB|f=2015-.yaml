@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2214CB
+command_id: 7E0.7E8.2214CB|f=2015-
 test_cases:
 - expected_values:
     A7_GEAR_V2: 0
