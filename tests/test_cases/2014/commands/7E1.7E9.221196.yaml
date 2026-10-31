@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221196
+test_cases:
+- expected_values:
+    A7_MQB_TCM_HYBRID_T: 927
+  response: |-
+    7E905621196039F
+    7E00322F405
+    7E80462F40574

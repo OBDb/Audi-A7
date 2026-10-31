@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2210F3|din=03
+test_cases:
+- expected_values:
+    A7_PQ35_DPF_DIFF_P_2: 2335
+  response: |-
+    7E8056210F3091F
+    7E00322F405
+    7E80462F40571

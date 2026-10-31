@@ -1,0 +1,24 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    A7_WARM_UPS: 50
+  response: |-
+    7E80462F43032
+    7E00322F40C
+    7E80562F40C0AE8
+- expected_values:
+    A7_WARM_UPS: 50
+  response: |-
+    7E80462F43032
+    7E00322F40C
+    7E80562F40C0AF0
+- expected_values:
+    A7_WARM_UPS: 50
+  response: |-
+    7E80462F43032
+    7E00322F470
+    7E8100D62F470120000
+    7E03000000000000000
+    7E82103770000037700
+    7E00322F405
+    7E80462F4056C

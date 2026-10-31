@@ -1,0 +1,7 @@
+command_id: 7E1.7E9.222114
+test_cases:
+- expected_values:
+    A7_MQB_TCM_KICK_DOWN: 0
+  response: |-
+    7E90462211400
+    7E80562F43C12DF

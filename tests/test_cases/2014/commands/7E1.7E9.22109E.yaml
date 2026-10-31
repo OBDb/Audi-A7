@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22109E
+test_cases:
+- expected_values:
+    A7_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_G5: -294.18
+  response: |-
+    7E00322F405
+    7E90562109E168D
+    7E80462F40571

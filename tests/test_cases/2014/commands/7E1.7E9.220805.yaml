@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.220805
+test_cases:
+- expected_values:
+    A7_BRAKE_LIGHT_ON: 0
+    A7_BRAKE_LIGHT_ON_VALID: 0
+    A7_BRAKE_PRESSED: 1
+    A7_BRAKE_PRESSED_VALID: 0
+  response: |-
+    7E90462080502
+    7E00322F40C
+    7E80562F40C0CCC

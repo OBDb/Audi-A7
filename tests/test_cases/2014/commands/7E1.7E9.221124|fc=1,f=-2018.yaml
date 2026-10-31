@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221124|fc=1,f=-2018
+test_cases:
+- expected_values:
+    A7_CLU_1_HI_ADPT_POINT: 7.494
+  response: |-
+    7E9056211241D46
+    7E00322F467
+    7E80662F467037583

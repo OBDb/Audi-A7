@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221143
+test_cases:
+- expected_values:
+    A7_MQB_DQ250_NEUTRAL_POS_GEAR_SELECTOR_6_R: 0
+  response: |-
+    7E90762114300000001
+    7E00322F405
+    7E80462F40575
