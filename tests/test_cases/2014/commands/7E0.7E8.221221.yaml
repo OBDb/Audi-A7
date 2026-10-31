@@ -1,0 +1,22 @@
+command_id: 7E0.7E8.221221
+test_cases:
+- expected_values:
+    A7_PQ35_ACCEL_PED_1: 881.8
+  response: |-
+    7E8056212211139
+    7E00322F405
+    7E80462F40572
+    7E00322F40C
+    7E80562F40C0AFC
+- expected_values:
+    A7_PQ35_ACCEL_PED_1: 881.8
+  response: |-
+    7E8056212211139
+    7E00322F40D
+    7E80462F40D00
+- expected_values:
+    A7_PQ35_ACCEL_PED_1: 881.8
+  response: |-
+    7E8056212211139
+    7E00322F467
+    7E80662F467037583

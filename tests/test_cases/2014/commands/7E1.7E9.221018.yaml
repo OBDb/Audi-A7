@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221018
+test_cases:
+- expected_values:
+    A7_PQ35_DRIVING_STRATEGY_MOUNTAIN_FACTOR: 0.39216
+  response: |-
+    7E905621018012B
+    7E00322F467
+    7E80662F467037282

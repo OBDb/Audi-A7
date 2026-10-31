@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2210AD
+test_cases:
+- expected_values:
+    A7_PQ35_GEAR_ACTUATOR_ADAPT_SYNCHRO_POS_G6: 15.36
+  response: |-
+    7E00322F43C
+    7E9056210AD0006
+    7E80562F43C135B

@@ -1,0 +1,24 @@
+command_id: 7E0.7E8.2215AA
+test_cases:
+- expected_values:
+    A7_PQ35_SELECTED_GEAR: 1
+  response: |-
+    7E00322F43C
+    7E8046215AA01
+- expected_values:
+    A7_PQ35_SELECTED_GEAR: 0
+  response: |-
+    7E8046215AA00
+    7E00322F40D
+    7E80462F40D00
+- expected_values:
+    A7_PQ35_SELECTED_GEAR: 0
+  response: |-
+    7E8046215AA00
+    7E00322F467
+    7E80662F467036A78
+- expected_values:
+    A7_PQ35_SELECTED_GEAR: 0
+  response: |-
+    7E8046215AA00
+    7E80562F40C0AF0

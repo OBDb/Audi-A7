@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221179
+test_cases:
+- expected_values:
+    A7_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G1: 220.22
+  response: |-
+    7E9056211790656
+    7E00322F40C
+    7E80562F40C0C74

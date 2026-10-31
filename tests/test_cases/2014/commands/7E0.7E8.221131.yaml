@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221131
+test_cases:
+- expected_values:
+    A7_PQ35_POST_INJ_3_START: -151.08
+  response: |-
+    7E805621131E27E
+    7E00322F40C
+    7E80562F40C0AF4
+- expected_values:
+    A7_PQ35_POST_INJ_3_START: -151.08
+  response: |-
+    7E805621131E27E
+    7E00322F40C
+    7E80562F40C0B10
+- expected_values:
+    A7_PQ35_POST_INJ_3_START: -151.08
+  response: |-
+    7E805621131E27E
+    7E00322F43C
+    7E80562F43C11D0
+- expected_values:
+    A7_PQ35_POST_INJ_3_START: -151.08
+  response: |-
+    7E805621131E27E
+    7E00322F467
+    7E80662F46703727B

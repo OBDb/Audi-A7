@@ -1,0 +1,24 @@
+command_id: 7E0.7E8.2210C2
+test_cases:
+- expected_values:
+    A7_PQ35_EGR_DUTY: 0
+  response: |-
+    7E8056210C20000
+    7E00322F40C
+    7E80562F40C0AF8
+- expected_values:
+    A7_PQ35_EGR_DUTY: 0
+  response: |-
+    7E8056210C20000
+    7E00322F467
+    7E80662F467036A78
+- expected_values:
+    A7_PQ35_EGR_DUTY: 0
+  response: |-
+    7E8056210C20000
+    7E00322F470
+    7E8100D62F470120000
+    7E82103620000036100
+    7E03000000000000000
+    7E00322F405
+    7E80462F40573

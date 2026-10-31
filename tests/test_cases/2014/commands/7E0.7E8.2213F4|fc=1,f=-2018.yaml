@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2213F4|fc=1,f=-2018
+test_cases:
+- expected_values:
+    A7_KNOCK_RETARD_CYL_3: 0
+  response: |-
+    7E8046213F480
+    7E00322F43C
+    7E80562F43C1183
