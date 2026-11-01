@@ -34,3 +34,9 @@ test_cases:
     7E82103750000037500
     7E00322F405
     7E80462F4056E
+- expected_values:
+    RPM: 764
+  response: |-
+    7E804410C0BF0
+    7E00322F405
+    7E80462F4057A

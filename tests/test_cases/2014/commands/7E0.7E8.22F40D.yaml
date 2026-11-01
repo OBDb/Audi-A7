@@ -4,6 +4,12 @@ test_cases:
     A7_VSS: 0
   response: |-
     7E80462F40D00
+    7E00322F40D
+    7E80462F40D00
+- expected_values:
+    A7_VSS: 0
+  response: |-
+    7E80462F40D00
     7E00322F467
     7E80662F46703737C
 - expected_values:

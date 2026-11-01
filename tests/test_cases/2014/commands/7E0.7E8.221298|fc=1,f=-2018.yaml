@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221298|fc=1,f=-2018
+test_cases:
+- expected_values:
+    A7_CAT_T_BANK_1: 495.1
+  response: |-
+    7E8056212983004
+    7E00322F40D
+    7E80462F40D00

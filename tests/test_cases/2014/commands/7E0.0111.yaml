@@ -34,6 +34,12 @@ test_cases:
     7E00322F405
     7E80462F4056F
 - expected_values:
+    TP: 12.54902
+  response: |-
+    7E803411120
+    7E00322F405
+    7E80462F4057B
+- expected_values:
     TP: 13.33333
   response: |-
     7E803411122

@@ -28,3 +28,9 @@ test_cases:
     7E80562F43C145F
     7E00322F467
     7E80662F467037583
+- expected_values:
+    ECT: 82
+  response: |-
+    7E80341057A
+    7E00322F40D
+    7E80462F40D08
