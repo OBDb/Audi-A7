@@ -1,0 +1,10 @@
+command_id: 7E0.7E8.221482|fc=1,f=-2018
+test_cases:
+- expected_values:
+    A7_MIS_CNT_2: 0
+  response: |-
+    7E8056214820000
+    7E00322F40C
+    7E80562F40C0B14
+    7E00322F40D
+    7E80462F40D00

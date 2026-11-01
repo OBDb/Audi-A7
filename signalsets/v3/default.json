@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "2605"}, "freq": 1, "filter": { "from": 2019 },
   "signals": [
     {"id": "A7_REFRIGERANT_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
@@ -1160,11 +1164,11 @@
   "signals": [
     {"id": "A7_CLT_ENG_START", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant at engine start"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1298"}, "freq": 5, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1298"}, "freq": 5, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_CAT_T_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 3822, "min": -273, "div": 16, "add": -273.15, "unit": "celsius" }, "name": "Cat. temperature, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1299"}, "freq": 5, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1299"}, "freq": 5, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_CAT_T_BANK_2", "path": "Engine", "fmt": { "len": 16, "max": 3822, "min": -273, "div": 16, "add": -273.15, "unit": "celsius" }, "name": "Cat. temperature, bank 2"}
   ]},
@@ -1288,7 +1292,7 @@
   "signals": [
     {"id": "A7_KNOCK_RETARD_CYL_5", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13F7"}, "freq": 1, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13F7"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_KNOCK_RETARD_CYL_6", "path": "Engine", "fmt": { "len": 8, "max": 47.62, "min": -48, "mul": 3, "div": 8, "add": -48, "unit": "degrees" }, "name": "Knock retard:, cylinder 6"}
   ]},
@@ -1308,11 +1312,11 @@
   "signals": [
     {"id": "A7_KNOCK_SENS_V_CYL_6", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13FC"}, "freq": 1, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13FC"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_KNOCK_SENS_V_CYL_2", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "13FD"}, "freq": 1, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "13FD"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_KNOCK_SENS_V_CYL_5", "path": "Battery", "fmt": { "len": 16, "max": 4.99, "mul": 0.000076294, "unit": "volts" }, "name": "Knock sensor voltage:, cylinder 5"}
   ]},
@@ -1368,7 +1372,7 @@
   "signals": [
     {"id": "A7_MIS_CNT_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires counter:, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1482"}, "freq": 3600, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1482"}, "freq": 3600, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_MIS_CNT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires counter:, cylinder 2"}
   ]},
@@ -1380,7 +1384,7 @@
   "signals": [
     {"id": "A7_MIS_PER_1000_RPM_1", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm:, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1485"}, "freq": 0.25, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1485"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_MIS_PER_1000_RPM_4", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm:, cylinder 4"}
   ]},
@@ -1392,7 +1396,7 @@
   "signals": [
     {"id": "A7_MIS_PER_1000_RPM_6", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm:, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "1488"}, "freq": 0.25, "filter": { "to": 2018 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1488"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2013, "from": 2015 },
   "signals": [
     {"id": "A7_MIS_PER_1000_RPM_2", "path": "Movement", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires per 1000 rpm:, cylinder 2"}
   ]},
@@ -2804,7 +2808,7 @@
   "signals": [
     {"id": "A7_MQB_DQ250_SYNCHRONOUS_POS_SIDE_B_GEAR_SELECTOR_6_R", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 655.35, "mul": 100, "div": 10000, "unit": "percent" }, "name": "Synchronous position side b gear selector 6 and reverse"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1156"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2013], "from": 2015 },
   "signals": [
     {"id": "A7_MQB_DQ250_CLUTCH_ADAPT_VALUES_IKP0_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values initial kill point 0 for K1"}
   ]},

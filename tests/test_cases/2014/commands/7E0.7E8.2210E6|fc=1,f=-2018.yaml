@@ -1,6 +1,14 @@
 command_id: 7E0.7E8.2210E6|fc=1,f=-2018
 test_cases:
 - expected_values:
+    A7_EOT: 56
+  response: |-
+    7E00322F43C
+    7E8046210E674
+    7E80562F43C14E9
+    7E00322F467
+    7E80662F467037C82
+- expected_values:
     A7_EOT: 38
   response: |-
     7E8046210E662

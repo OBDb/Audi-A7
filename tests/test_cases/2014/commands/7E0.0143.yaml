@@ -29,6 +29,14 @@ test_cases:
     7E00322F405
     7E80462F4056A
 - expected_values:
+    LOAD_ABS: 30.58824
+  response: |-
+    7E8044143004E
+    7E00322F40C
+    7E80562F40C0C18
+    7E00322F40D
+    7E80462F40D0B
+- expected_values:
     LOAD_ABS: 49.01961
   response: |-
     7E8044143007D

@@ -29,3 +29,9 @@ test_cases:
     7E80462F40572
     7E00322F40C
     7E80562F40C0AF4
+- expected_values:
+    CLR_DIST: 973
+  response: |-
+    7E804413103CD
+    7E00322F467
+    7E80662F467037B82
