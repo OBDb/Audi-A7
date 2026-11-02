@@ -19,11 +19,23 @@ test_cases:
     7E00322F467
     7E80662F46703727B
 - expected_values:
+    EQ_RAT: 0.99475
+  response: |-
+    7E80441447F54
+    7E00322F40C
+    7E80562F40C0AEC
+- expected_values:
     EQ_RAT: 0.995
   response: |-
     7E80441447F5C
     7E00322F40C
     7E80562F40C0B00
+- expected_values:
+    EQ_RAT: 0.99524
+  response: |-
+    7E80441447F64
+    7E00322F405
+    7E80462F40578
 - expected_values:
     EQ_RAT: 0.99664
   response: |-

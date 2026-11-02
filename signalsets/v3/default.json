@@ -2284,7 +2284,7 @@
   "signals": [
     {"id": "A7_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2010, "years": [2013, 2014, 2015, 2017, 2018, 2019], "from": 2021 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0302"}, "freq": 900, "dbgfilter": { "to": 2010, "years": [2013, 2015, 2017, 2018, 2019], "from": 2021 },
   "signals": [
     {"id": "A7_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
   ]},
@@ -2635,7 +2635,7 @@
   "signals": [
     {"id": "A7_PQ35_GEAR_ACTUATOR_ADAPT_ENGAGED_POS_GR", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "millimeters" }, "name": "Gear actuator adaptation engaged position GR"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "10C9"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2013], "from": 2015 },
   "signals": [
     {"id": "A7_PQ35_CLUTCH_1_SUCCESSFUL_ADAPTS_COUNTER", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Clutch 1 successful adaptations counter"}
   ]},
@@ -2864,7 +2864,7 @@
   "signals": [
     {"id": "A7_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_LOW_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: low press on clutch 1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1181"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2013], "from": 2015 },
   "signals": [
     {"id": "A7_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_1", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "unit": "bars" }, "name": "Correction values for main press adaptation: high press on clutch 1"}
   ]},

@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.221181
+test_cases:
+- expected_values:
+    A7_MQB_DQ250_CORRECTION_VALUES_MAIN_P_ADAPT_HIGH_P_ON_CLUTCH_1: -240.62
+  response: |-
+    7E90562118102A2
+    7E00322F40D
+    7E80462F40D00

@@ -10,6 +10,12 @@ test_cases:
     7E00322F405
     7E80462F40579
 - expected_values:
+    SHRTFT1: -3.90625
+  response: |-
+    7E80341067B
+    7E00322F43C
+    7E80562F43C139A
+- expected_values:
     SHRTFT1: 0
   response: |-
     7E803410680
@@ -43,6 +49,16 @@ test_cases:
     7E922A2FFE90006000D
     7E9230000AAAAAAAAAA
     7E80562F40C0BE0
+- expected_values:
+    SHRTFT1: 2.34375
+  response: |-
+    7E803410683
+    7E00322F470
+    7E8100D62F470120000
+    7E03000000000000000
+    7E82104AE000004B100
+    7E00322F405
+    7E80462F40578
 - expected_values:
     SHRTFT1: 3.90625
   response: |-
