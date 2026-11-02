@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.220302
+test_cases:
+- expected_values:
+    A7_DRIVE_TIME: 1227.75
+  response: |-
+    7E905620302132F
+    7E00322F467
+    7E80662F467037981
