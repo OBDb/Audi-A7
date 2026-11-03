@@ -1,6 +1,11 @@
 command_id: 7E0.0111
 test_cases:
 - expected_values:
+    TP: 12.94118
+  response: |-
+    7E00322F405
+    7E803411121
+- expected_values:
     TP: 11.76471
   response: |-
     7E80341111E
@@ -38,7 +43,7 @@ test_cases:
   response: |-
     7E803411120
     7E00322F405
-    7E80462F4057B
+    7E80462F40582
 - expected_values:
     TP: 12.54902
   response: |-
@@ -52,8 +57,32 @@ test_cases:
     7E00322F40C
     7E80562F40C0AF4
 - expected_values:
+    TP: 12.54902
+  response: |-
+    7E803411120
+    7E00322F43C
+    7E80562F43C20C4
+- expected_values:
     TP: 13.33333
   response: |-
     7E803411122
     7E00322F40C
     7E80562F40C0C24
+- expected_values:
+    TP: 13.33333
+  response: |-
+    7E803411122
+    7E00322F40D
+    7E80462F40D55
+- expected_values:
+    TP: 13.72549
+  response: |-
+    7E803411123
+    7E00322F43C
+    7E80562F43C215C
+- expected_values:
+    TP: 17.2549
+  response: |-
+    7E80341112C
+    7E00322F467
+    7E80662F467038087

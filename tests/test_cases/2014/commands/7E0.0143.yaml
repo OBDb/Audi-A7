@@ -1,6 +1,18 @@
 command_id: 7E0.0143
 test_cases:
 - expected_values:
+    LOAD_ABS: 23.13725
+  response: |-
+    7E8044143003B
+    7E00322F40C
+    7E80562F40C10D0
+- expected_values:
+    LOAD_ABS: 23.92157
+  response: |-
+    7E8044143003D
+    7E00322F40C
+    7E80562F40C10F4
+- expected_values:
     LOAD_ABS: 26.66667
   response: |-
     7E80441430044
@@ -37,6 +49,18 @@ test_cases:
     7E00322F40D
     7E80462F40D0B
 - expected_values:
+    LOAD_ABS: 32.54902
+  response: |-
+    7E80441430053
+    7E00322F43C
+    7E80562F43C1AC6
+- expected_values:
+    LOAD_ABS: 32.94118
+  response: |-
+    7E80441430054
+    7E00322F40C
+    7E80562F40C0B0C
+- expected_values:
     LOAD_ABS: 35.29412
   response: |-
     7E8044143005A
@@ -49,6 +73,12 @@ test_cases:
     7E00322F405
     7E80462F40578
 - expected_values:
+    LOAD_ABS: 36.47059
+  response: |-
+    7E8044143005D
+    7E00322F467
+    7E80662F467037F84
+- expected_values:
     LOAD_ABS: 49.01961
   response: |-
     7E8044143007D
@@ -58,3 +88,9 @@ test_cases:
     7E821064F0000064C00
     7E00322F405
     7E80462F40575
+- expected_values:
+    LOAD_ABS: 117.2549
+  response: |-
+    7E8044143012B
+    7E00322F467
+    7E80662F467037E84

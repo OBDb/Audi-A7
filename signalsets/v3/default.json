@@ -2820,7 +2820,7 @@
   "signals": [
     {"id": "A7_MQB_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K1", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K1"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1159"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2013], "from": 2015 },
   "signals": [
     {"id": "A7_MQB_DQ250_CLUTCH_ADAPT_VALUES_LOWER_I_POINT_ADAPT_K2", "path": "Transmission", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "milliamps" }, "name": "Clutch adaptation values lower current point adaptation K2"}
   ]},
@@ -2848,7 +2848,7 @@
   "signals": [
     {"id": "A7_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G4", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G4"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "dbgfilter": { "to": 2010, "from": 2013 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "117D"}, "freq": 3600, "dbgfilter": { "to": 2010, "years": [2013], "from": 2015 },
   "signals": [
     {"id": "A7_MQB_DQ250_GEAR_SELECTOR_SYNCHRONOUS_POS_G5", "path": "Transmission", "fmt": { "len": 16, "blsb": true, "max": 327.67, "div": 100, "sign": true, "unit": "percent" }, "name": "Gear selector synchronous position G5"}
   ]},

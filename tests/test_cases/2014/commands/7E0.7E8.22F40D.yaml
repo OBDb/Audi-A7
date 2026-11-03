@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.22F40D
 test_cases:
 - expected_values:
+    A7_VSS: 64
+  response: |-
+    7E00322F405
+    7E80462F40D40
+- expected_values:
     A7_VSS: 0
   response: |-
     7E80462F40D00
@@ -16,14 +21,14 @@ test_cases:
     A7_VSS: 0
   response: |-
     7E80462F40D00
-    7E00322F467
-    7E80662F46703737C
+    7E00322F43C
+    7E80562F43C1CFA
 - expected_values:
     A7_VSS: 0
   response: |-
     7E80462F40D00
     7E00322F467
-    7E80662F467037B82
+    7E80662F46703737C
 - expected_values:
     A7_VSS: 0
   response: |-
@@ -45,8 +50,26 @@ test_cases:
     7E00322F405
     7E80462F40576
 - expected_values:
+    A7_VSS: 5
+  response: |-
+    7E80462F40D05
+    7E00322F43C
+    7E80562F43C2158
+- expected_values:
     A7_VSS: 7
   response: |-
     7E80462F40D07
     7E00322F40D
     7E80462F40D07
+- expected_values:
+    A7_VSS: 13
+  response: |-
+    7E80462F40D0D
+    7E00322F467
+    7E80662F467038087
+- expected_values:
+    A7_VSS: 83
+  response: |-
+    7E80462F40D53
+    7E00322F467
+    7E80662F467038087

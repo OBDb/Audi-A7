@@ -51,8 +51,44 @@ test_cases:
     7E03000000000000000
     7E82104A9000004A900
 - expected_values:
+    RPM: 712
+  response: |-
+    7E804410C0B20
+    7E00322F43C
+    7E80562F43C1DF4
+- expected_values:
     RPM: 764
   response: |-
     7E804410C0BF0
     7E00322F405
     7E80462F4057A
+- expected_values:
+    RPM: 941
+  response: |-
+    7E804410C0EB4
+    7E00322F467
+    7E80662F467037D82
+- expected_values:
+    RPM: 1010
+  response: |-
+    7E804410C0FC8
+    7E00322F43C
+    7E80562F43C2225
+- expected_values:
+    RPM: 1113
+  response: |-
+    7E804410C1164
+    7E00322F467
+    7E80662F467038087
+- expected_values:
+    RPM: 1626
+  response: |-
+    7E804410C1968
+    7E00322F40C
+    7E80562F40C1968
+- expected_values:
+    RPM: 1821
+  response: |-
+    7E804410C1C74
+    7E00322F405
+    7E80462F40580
