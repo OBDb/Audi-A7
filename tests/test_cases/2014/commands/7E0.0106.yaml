@@ -1,6 +1,12 @@
 command_id: 7E0.0106
 test_cases:
 - expected_values:
+    SHRTFT1: -22.65625
+  response: |-
+    7E803410663
+    7E00322F467
+    7E80662F467038187
+- expected_values:
     SHRTFT1: -17.1875
   response: |-
     7E80341066A
@@ -10,17 +16,29 @@ test_cases:
     7E00322F405
     7E80462F40579
 - expected_values:
-    SHRTFT1: -3.90625
+    SHRTFT1: -6.25
   response: |-
-    7E80341067B
+    7E803410678
     7E00322F43C
-    7E80562F43C139A
+    7E80562F43C1AF0
+- expected_values:
+    SHRTFT1: -3.125
+  response: |-
+    7E80341067C
+    7E00322F40C
+    7E80562F40C0B0C
 - expected_values:
     SHRTFT1: 0
   response: |-
     7E803410680
     7E00322F405
     7E80462F40574
+- expected_values:
+    SHRTFT1: 0
+  response: |-
+    7E803410680
+    7E00322F43C
+    7E80562F43C20B4
 - expected_values:
     SHRTFT1: 0
   response: |-
@@ -49,6 +67,12 @@ test_cases:
     7E922A2FFE90006000D
     7E9230000AAAAAAAAAA
     7E80562F40C0BE0
+- expected_values:
+    SHRTFT1: 0
+  response: |-
+    7E803410680
+    7E00322F467
+    7E80662F467038087
 - expected_values:
     SHRTFT1: 2.34375
   response: |-
