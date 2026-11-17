@@ -21,51 +21,51 @@
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42BB"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_EVAPORATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "unit": "celsius" }, "name": "Evaporator temperature"}
+    {"id": "A7_EVAPORATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Evaporator temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42BC"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_LEFT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left foot well air outlet temperature"}
+    {"id": "A7_LEFT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left foot well air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42BD"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_RIGHT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right foot well air outlet temperature"}
+    {"id": "A7_RIGHT_FOOTWELL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right foot well air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42BE"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_LEFT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left rear upper air outlet temperature"}
+    {"id": "A7_LEFT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left rear upper air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C0"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_RIGHT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right rear upper air outlet temperature"}
+    {"id": "A7_RIGHT_REAR_HI_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right rear upper air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C1"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_LEFT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left rear foot well air outlet temperature"}
+    {"id": "A7_LEFT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left rear foot well air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C2"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_RIGHT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right rear foot well air outlet temperature"}
+    {"id": "A7_RIGHT_REAR_FOOTWELL_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right rear foot well air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C3"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_LEFT_SIDE_AIR_OUTLET_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left side air outlet temperature"}
+    {"id": "A7_LEFT_SIDE_AIR_OUTLET_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left side air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C4"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_RIGHT_SIDE_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right side air outlet temperature"}
+    {"id": "A7_RIGHT_SIDE_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right side air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C5"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_LEFT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Left central air outlet temperature"}
+    {"id": "A7_LEFT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Left central air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C6"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_RIGHT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Right central air outlet temperature"}
+    {"id": "A7_RIGHT_CENTRAL_AIR_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Right central air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "42C8"}, "freq": 5, "filter": { "from": 2019 },
   "signals": [
-    {"id": "A7_FRONT_DEFROST_FLAP_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045.9375, "unit": "celsius" }, "name": "Front defrost flap air outlet temperature"}
+    {"id": "A7_FRONT_DEFROST_FLAP_T", "path": "Engine", "fmt": { "len": 16, "max": 4045, "min": -50, "div": 16, "add": -50, "nullmax": 4045, "unit": "celsius" }, "name": "Front defrost flap air outlet temperature"}
   ]},
 { "hdr": "70E", "rax": "778", "fcm1": true, "din": "03", "dbg": true, "cmd": {"22": "5036"}, "freq": 1, "filter": { "from": 2019 },
   "signals": [
@@ -266,7 +266,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
-    {"id": "A7_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature"}
+    {"id": "A7_AAT_746", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2010, "from": 2013 },
   "signals": [
